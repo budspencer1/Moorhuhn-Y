@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\include\Chicken.hpp" />
     <ClInclude Include="..\include\Engine.hpp" />
     <ClInclude Include="..\include\Functions.hpp" />
     <ClInclude Include="..\include\Gamecodes.hpp" />
@@ -96,8 +97,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>C:\Users\SeanConnery\Documents\GitHub\Moorhuhn Y\Moorhuhn Y\src\version;C:\Users\SeanConnery\Documents\GitHub\Moorhuhn Y\Moorhuhn Y\src\include;C:\Users\SeanConnery\Documents\GitHub\Moorhuhn Y\Moorhuhn Y\src\SFML\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\SeanConnery\Documents\GitHub\Moorhuhn Y\Moorhuhn Y\src\SFML\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\SeanConnery\Documents\GitHub\MoorhuhnY\src\version;C:\Users\SeanConnery\Documents\GitHub\MoorhuhnY\src\SFML\include;C:\Users\SeanConnery\Documents\GitHub\MoorhuhnY\src\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\SeanConnery\Documents\GitHub\MoorhuhnY\src\SFML\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -157,7 +158,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>SFML_STATIC;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\SeanConnery\Documents\GitHub\Moorhuhn Y\Moorhuhn Y\src\version;C:\Users\SeanConnery\Documents\GitHub\Moorhuhn Y\Moorhuhn Y\src\include;C:\Users\SeanConnery\Documents\GitHub\Moorhuhn Y\Moorhuhn Y\src\SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\SeanConnery\Documents\GitHub\MoorhuhnY\src\version;C:\Users\SeanConnery\Documents\GitHub\MoorhuhnY\src\SFML\include;C:\Users\SeanConnery\Documents\GitHub\MoorhuhnY\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <BrowseInformation>true</BrowseInformation>
     </ClCompile>
     <Link>

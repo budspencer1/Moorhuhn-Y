@@ -16,9 +16,9 @@
 #include"VersionControl.inc"
 #include"Mathematics.hpp"
 
+using namespace Mathematic;
 using namespace std;
 using namespace sf;
-using namespace Mathematic;
 
 class Engine
 {
@@ -36,4 +36,5 @@ private:
 	float frametime,fps;
 	void setbackground(sf::Texture *tex);
 };
+
 #endif

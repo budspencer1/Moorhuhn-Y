@@ -30,6 +30,9 @@
     <ClInclude Include="..\include\MoorhuhnY.hpp">
       <Filter>Headerdateien</Filter>
     </ClInclude>
+    <ClInclude Include="..\include\Chicken.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\gamecode\Engine.cpp">

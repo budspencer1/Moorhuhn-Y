@@ -8,7 +8,6 @@
 */
 
 #pragma once
-
 #include"Engine.hpp"
 #include"VersionControl.inc"
 
@@ -27,7 +26,7 @@ Engine::Engine()
 	isRunning=true;isPaused=false;
 	renderwindow=new RenderWindow(VideoMode(width,height,bit),("Moorhuhn Y"),Style::Titlebar|Style::Close);renderwindow->setVerticalSyncEnabled(true);
 	backgrounds=new Sprite();backgroundt=new Texture();backgroundt->loadFromFile(string("media/textures/background_level1.png"));backgrounds->setTexture(*backgroundt);backgrounds->setOrigin(Vector2f((float)backgroundt->getSize().x/2,(float)backgroundt->getSize().y/2));backgrounds->setPosition(Vector2f((float)width/2,(float)height/2));
-	mainevent=new Event;
+	mainevent=new Event();
 	fpsclock=new Clock,clock=new Clock,clock->restart(),fpsclock->restart();
 }
 
